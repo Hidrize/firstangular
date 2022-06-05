@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+title(title: any) {
+  throw new Error('Method not implemented.');
+}
 
 myArr = ['a','e','i'];
 
